@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="VirtualGymUnityProject" Publisher="CN=DefaultCompany" Version="1.0.0.3" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>Virtual Gym Unity Project</DisplayName>
+    <PublisherDisplayName>DefaultCompany</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="VirtualGym.exe" EntryPoint="VirtualGymUnityProject.App">
+      <VisualElements DisplayName="VirtualGym" Logo="Assets\SquareTile.png" SmallLogo="Assets\SmallTile.png" Description="Virtual Gym Unity Project" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShortName="Virtual Gym" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
